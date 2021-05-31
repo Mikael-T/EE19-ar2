@@ -178,13 +178,6 @@ img {
     box-shadow: var(--shadow);
 }
 
-footer{
-    margin-top: 2rem;
-    background: var(--dark);
-    color: var(--light);
-    text-align: center;
-    padding: 1rem;
-}
 
 .boxes {
     display: grid;
@@ -235,4 +228,5 @@ h2 {
     color: white;
     border-bottom: 8px solid #0d13202a;
 }
+
 
