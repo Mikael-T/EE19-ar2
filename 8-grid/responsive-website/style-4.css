@@ -76,7 +76,6 @@ ul {
 
     .kontainer form {
     display: grid;
-    grid-columns: 250px auto ;
     grid-gap: 10px;
     }
 

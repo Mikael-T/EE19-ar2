@@ -81,7 +81,6 @@ ul {
 
     .kontainer form {
     display: grid;
-    grid-columns: 250px auto ;
     grid-gap: 10px;
     }
 
@@ -114,9 +113,6 @@ h3 {
 }
 
 
-.plusmedlem:hover {
-    
-}
 
 .plusmedlem {
     
@@ -145,4 +141,5 @@ footer {
     background: var(--dark);
     color: var(--light);
     text-align: center;
-    padding: 1rem;
+    padding: 1rem; 
+ }
