@@ -1,20 +1,17 @@
 html{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
 body, html {
-    height: 100%;
-
-    
-    background-image: url("./bilder/RobotContact.jpg");
   
+    background: url("./bilder/megamanBlue.jpg");
     height: 100%;
-  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
 
 .main-nav ul {
@@ -42,13 +39,33 @@ body, html {
     color: var(--light);
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.medlem {
+    border-radius: 6px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.namn1 {
+   text-align: left;
+}
+
 .kontainer {
-    width: 600px ;
-    margin: 50px auto auto auto;
-    padding: 30px ;
+    width: 500px ;
+    margin: auto auto auto auto;
+    margin-top: 100px;
+    padding: 10px;
     background:#0097FA;
     font-family: monospace;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    border-radius: 10px;
     }
 
     .kontainer h2 {
@@ -74,4 +91,20 @@ body, html {
     }
 
 
-    
+li {
+    color: white;
+}
+
+.pris1 {
+    text-align: right;
+}
+
+h3 {
+    font-size: 30px;
+    width: 100px;
+    color: white;
+}
+
+.div {
+    color: white;
+}
